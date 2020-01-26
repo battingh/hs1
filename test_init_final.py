@@ -1295,6 +1295,10 @@ while True:
 
 			if message.content == '!오빠' :
 				await PlaySound(voice_client1, './sound/오빠.mp3')
+			if message.content == '!전투' :
+				await PlaySound(voice_client1, './sound/전투젠.mp3')
+			if message.content == '!자리체' :
+				await PlaySound(voice_client1, './sound/전투젠.mp3')
 			if message.content == '!언니' :
 				await PlaySound(voice_client1, './sound/언니.mp3')
 			if message.content == '!형' :
